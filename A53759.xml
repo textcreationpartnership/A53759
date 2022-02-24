@@ -1,0 +1,988 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Eikōn vasilikē, or, An image royal, &amp;c. March 25.</title>
+            <author>Oxinden, Henry, 1609-1670.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1660</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 37 KB of XML-encoded text transcribed from 16 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A53759</idno>
+            <idno type="STC">Wing O840A</idno>
+            <idno type="STC">ESTC R6350</idno>
+            <idno type="EEBO-CITATION">12801022</idno>
+            <idno type="OCLC">ocm 12801022</idno>
+            <idno type="VID">94038</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A53759)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 94038)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 725:2)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Eikōn vasilikē, or, An image royal, &amp;c. March 25.</title>
+                  <author>Oxinden, Henry, 1609-1670.</author>
+               </titleStmt>
+               <extent>[8], 22 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.],</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1660.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Laudatory verses, prelim. p. [3]-[5], addressed to Henry Oxinden.</note>
+                  <note>Celebrating the marriage of Basil Dixwell and Dorothy Peyton.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Dixwell, Dorothy.</term>
+               <term>Dixwell, Basil, --  Sir.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-01</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2011-01</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:94038:1"/>
+            <pb facs="tcp:94038:1"/>
+            <p>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> OR AN IMAGE ROYAL, &amp;c.</p>
+            <figure>
+               <figDesc>laurel wreath</figDesc>
+            </figure>
+            <p>
+               <hi>March</hi> 25.</p>
+            <p>Printed in the Year. 1660.</p>
+         </div>
+         <div type="wedding_poem">
+            <pb facs="tcp:94038:2"/>
+            <pb facs="tcp:94038:2"/>
+            <head>To his Honored and moſt Faithful Friend <hi>HENRY OXINDEN</hi> 
+               <abbr>Eſq</abbr> Upon his moſt Incomparable EPITHALAMIUM.</head>
+            <lg>
+               <l>UNcelebrated <hi>NUPTIALS</hi> by thee</l>
+               <l>Made coy <hi>Diana</hi> vow Virginity.</l>
+            </lg>
+            <lg>
+               <l>Thy lines (I fear) ſuch powerful charms will prove,</l>
+               <l>As to make all the Muſes fall in love;</l>
+            </lg>
+            <lg>
+               <l>And ſtrive who firſt ſhall quit <hi>Pemaſſus</hi> hill,</l>
+               <l>To Kiſs, to Court, and to Eſpouſe thy Quill.</l>
+            </lg>
+            <lg>
+               <l>Thy heart-enamouring ſtrains, did they but ſee,</l>
+               <l>The Nunneries would all unpeopl'd be:</l>
+            </lg>
+            <lg>
+               <l>Deſpiſing Cloyſters; Abbeſſes would throng</l>
+               <l>About thee, for to beg a Marriage Song.</l>
+            </lg>
+            <lg>
+               <l>Your Wedding Garments well become the Bride,</l>
+               <l>And <hi>SUITE</hi> her for a <hi>BAZILEAN</hi> ſide.</l>
+            </lg>
+            <lg>
+               <l>Who grieve to ſee the Tapors looſe their light,</l>
+               <l>Becauſe jour Muſe muſt then bid them good night.</l>
+            </lg>
+            <lg>
+               <l>Beauty will moſt ingeniouſly confeſs,</l>
+               <l>You only Cloath her in her pleaſing Dreſs,</l>
+            </lg>
+         </div>
+         <div type="wedding_poem">
+            <pb facs="tcp:94038:3"/>
+            <head>On my highly honored Friend, the Author of the <hi>EPITHALAMIUM.</hi>
+            </head>
+            <l>IN this dear Pair, we ſee two married Hearts,</l>
+            <l>And in your Book the Marriage of the Arts:</l>
+            <l>Your Lines are all Heroick, ſo are they;</l>
+            <l>Thoſe wear the Roſemary, and you the Bay:</l>
+            <l>Proſe firſt conjoyn'd them both, till their laſt breath,</l>
+            <l>But in your Verſe, they'r wedded after death.</l>
+            <bibl>Th. Williams.</bibl>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:94038:3"/>
+            <head>To his much reſpected Friend, <hi>HENRY OXINDEN,</hi> in behalf of his <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>; As alſo To the READER concerning the ſame.</head>
+            <l>HEnry, methinks thou do'ſt moſt ſweetly ſing,</l>
+            <l>O how thy Muſe makes Muſick for a <hi>King!</hi>
+            </l>
+            <l>Even the very beſt of <hi>Kings,</hi> the Spheres</l>
+            <l>May not ſound ſweeter in his Sacred Ears,</l>
+            <l>Then thy exalted Monarchy above</l>
+            <l>All Governments below the Throne of <hi>Jove.</hi>
+            </l>
+            <l>And ye ſweet <hi>Baſil,</hi> and fair <hi>Dorothy,</hi>
+            </l>
+            <l>Extolled higher then ſublimity!</l>
+            <l>How can you chuſe, but much delight to hear</l>
+            <l>Your worth's ſo ſweetly tuned to your ear,</l>
+            <l>By him whom <hi>Malice</hi> at its heighth can't ſay,</l>
+            <l>Hath uſed been unto the leaſt foul play,</l>
+            <l>But hates what's falſe, and loveth what is true,</l>
+            <l>And <hi>Reader,</hi> if you him, I know loves you.</l>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:94038:4"/>
+            <head>Another by the ſame, to the ſame.</head>
+            <l>HEnry, I do confeſs I love thee well,</l>
+            <l>Yet in a friendly manner Ile thee tell,</l>
+            <l>That though in reading of thy lines no ſmall</l>
+            <l>Pleaſure I take, and love to view them all</l>
+            <l>Over and ever, that nor <hi>Monarchie,</hi>
+            </l>
+            <l>Nor <hi>Baſil,</hi> nor his matchleſs <hi>Dorothie</hi>
+            </l>
+            <l>Thou haſt ſet out to their worths <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> no,</l>
+            <l>Yet Ile excuſe thee, who can do it ſo?</l>
+            <l>And, <hi>Reader,</hi> make thou much of what thou haſt</l>
+            <l>In theſe his lines, he ſays they are his laſt;</l>
+            <l>They are hit laſt, and now gives way to thee</l>
+            <l>T'excel that which cannot be done by me.</l>
+         </div>
+         <div type="poem">
+            <head>One more to the ſame, by the ſame. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+            </head>
+            <l>ô heavenly ſight!</l>
+            <l>More joyous then the Fountain of the Light!</l>
+            <l>It is ſo well by <hi>Henry</hi> here diſplay'd,</l>
+            <l>As ſure he had all the Nine Muſes ayd;</l>
+            <l>Yea, a far greater: now he is ſet down</l>
+            <l>To reſt, I wiſh him at the laſt Heav'ns Crown.</l>
+            <l>Now, Reader, with me joyn and let us raiſe</l>
+            <l>His ſame on earth, and crown his head with Bays,</l>
+            <l>That he a Poet Laureate may be,</l>
+            <l>And conſecrated to Eternitie.</l>
+         </div>
+         <div type="poem" subtype="from_author_to_the_reader">
+            <pb facs="tcp:94038:4"/>
+            <head>To the Reader,</head>
+            <byline>By the Author.</byline>
+            <l>REader, here is expoſed thine eye</l>
+            <l>How (by Heaven authoriz'd) Monarchie</l>
+            <l>Excels not only rude Democratie,</l>
+            <l>But alſo choiceſt Ariſtocratie:</l>
+            <l>Here alſo thou maiſt ſee, if thou canſt ſee,</l>
+            <l>A gift Divine, ev'n <hi>Baſil Dorothie.</hi>
+            </l>
+            <l>If thou beeſt wiſe, what ere thou thinkſt of me,</l>
+            <l>Do not at leaſt deſpiſe Divinity.</l>
+            <l>But if thou thinkſt the gift is far more high</l>
+            <l>Then I have ſet it out, true, ſo do I,</l>
+            <l>And therefore pray thee my defects ſupply</l>
+            <l>By thy perfections, or me not decry:</l>
+            <l>For my part I ingeniouſly confeſs</l>
+            <l>Here's worth, as to its hight I can't expreſs.</l>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:94038:5"/>
+            <head>TO MOMUS.</head>
+            <l>
+               <hi>MOmus</hi> I charge thee venome ſpit thou none</l>
+            <l>'Gainſt <hi>Baſil Dorothy</hi> conjoyn'd in one:</l>
+            <l>
+               <hi>Kings</hi> are the gift of <hi>God,</hi> nay, <hi>Kings</hi> are <hi>Gods,</hi>
+            </l>
+            <l>Thou haſt a peſtilent Tongue, but they have Rods.</l>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <div n="1" type="part">
+               <pb n="1" facs="tcp:94038:5"/>
+               <head>LIB. I.</head>
+               <lg>
+                  <l>IT's ſaid the Heir of <hi>Broom</hi> that noble Squire,</l>
+                  <l>Whoſe gallant heart being touched with <hi>Loves</hi> fire,</l>
+                  <l>Hath joyned hands with one whoſe vertues are</l>
+                  <l>Such as his own, and both beyond compare.</l>
+                  <l>Chaſt <hi>Erato</hi> thou noble Muſe, thou which</l>
+                  <l>Do'ſt all thy lovers with thy help enrich,</l>
+                  <l>Help me thy ſervant, that I may diſplay</l>
+                  <l>Sights able to turn night into the day,</l>
+                  <l>Rare <hi>Beauties!</hi> ſuch as ſoon as <hi>Phebus,</hi> he</l>
+                  <l>Is under Earth, makes haſt again to ſee;</l>
+                  <l>And who needs wonder that he doth ſo, ſith</l>
+                  <l>Their radiant eyes add luſtre to his light.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Reader,</hi> no figures here expect, what's true</l>
+                  <l>Is onely now expoſed to thy view:</l>
+                  <l>
+                     <hi>Hyperboles</hi> there is no need of here,</l>
+                  <l>Where eyes more beautiful then <hi>Sol</hi> appear,</l>
+                  <l>Eyes purely ſining in Heavenly faces,</l>
+                  <l>And orbed with the Mirror of all <hi>Graces.</hi>
+                  </l>
+                  <l>O, who is he that's mortal can expreſs</l>
+                  <l>Such <hi>Beauties</hi> as the <hi>Angels</hi> may confeſs,</l>
+                  <pb n="2" facs="tcp:94038:6"/>
+                  <l>A task ſufficient for their skill divine,</l>
+                  <l>Highly tranſcendent unto all that's mine;</l>
+                  <l>Could I now mount above <hi>Heav'ns</hi> higheſt ſphere,</l>
+                  <l>And pluck a Quill from <hi>Cherubims</hi> are there,</l>
+                  <l>And be enſpired with their knowledge, then</l>
+                  <l>I might their worth deſcribe with ſuch a Pen:</l>
+                  <l>But ſith to me a mortal it's deny'd</l>
+                  <l>By <hi>Angels</hi> in this caſe to be ſupply'd</l>
+                  <l>With help adequate unto my deſires,</l>
+                  <l>Little I'll ſay, how ere I do require</l>
+                  <l>Thy patience <hi>Reader,</hi> and forgiveneſs too</l>
+                  <l>In all that herein I ſhall ſay or do:</l>
+                  <l>And you whoſe <hi>Beauties,</hi> and whoſe royal worth</l>
+                  <l>I now am ayming partly to ſet forth,</l>
+                  <l>I muſt your pardons crave for coming ſhort</l>
+                  <l>Of what I ſhould, if that I could report,</l>
+                  <l>I mean your <hi>Excellencies,</hi> which ſurmount</l>
+                  <l>The numerous Sands or Stars in my account,</l>
+                  <l>Thoſe <hi>Excellencies</hi> which do in you ſhine,</l>
+                  <l>Unmixt with Earth, and purely all divine.</l>
+               </lg>
+               <lg>
+                  <l>And ſith man firſt was made, I will begin</l>
+                  <l>To ſpeak of thee ſweet <hi>Baſil,</hi> near of kin</l>
+                  <l>To him that made thee, being (witneſs <hi>Paul</hi>)</l>
+                  <l>The ver Off-ſpring of him that governs all.</l>
+                  <l>Thy name imports a <hi>King,</hi> thy <hi>Princely</hi> face</l>
+                  <l>Speaks thee to be a lover of his race:</l>
+                  <l>Let Dunghill fancies court the multitude,</l>
+                  <l>Of faith, and ſpirits barbarous, baſe and rude,</l>
+                  <pb n="3" facs="tcp:94038:6"/>
+                  <l>And like the <hi>Heathen</hi> many Gods adore,</l>
+                  <l>Thou worſhip'ſt one, in truth there is no more;</l>
+                  <l>No more then one God, and one King there is</l>
+                  <l>Can crown the Nations with a Royal bliſs.</l>
+                  <l>Hence 'tis <hi>Queen Nature</hi> (conſtantly)</l>
+                  <l>Graves in brave hearts the rule of Royalty.</l>
+                  <l>No matter 'tis which way the vulgar go,</l>
+                  <l>Alas, poor Souls, they know not what they do!</l>
+                  <l>What Chaff's more light, what Sea to ſwell more apt</l>
+                  <l>Then they? who when the weathers calm are rape</l>
+                  <l>Ev'n up t'Heav'n in fancy, and in hope,</l>
+                  <l>When foul, a ſunder cut the Cable Rope:</l>
+                  <l>Before the Ship's in danger, (<hi>Lord</hi> defend</l>
+                  <l>All thine from thoſe who thus to ruine tend.)</l>
+                  <l>What <hi>Tygre</hi> is more fierce ? what ſavage <hi>Bear</hi>
+                  </l>
+                  <l>More cruel then thoſe head-ſtrong Block-heads are?</l>
+                  <l>Yet the quick ſliding Sand is ſetled more</l>
+                  <l>Then they: O how ſoon turned o'r and o're!</l>
+                  <l>
+                     <hi>Euripus</hi> thou ſo often (we do know)</l>
+                  <l>As they do change, doeſt not ebb and flow!</l>
+                  <l>Thou <hi>Proteus,</hi> and thou <hi>Luna</hi> us'd to vary,</l>
+                  <l>Art far more conſtant then this <hi>Drummedary,</hi>
+                  </l>
+                  <l>This huge, this ſtrange, this inform, monſtrous beaſt</l>
+                  <l>With many thouſand heads of late encreas'd,</l>
+                  <l>And cheriſh'd by a damn'd, and ſtinking Rump</l>
+                  <l>Scorn'd and abhor'd, and worn unto the ſtump;</l>
+                  <l>The ſink of filth, in which the chotceſt thing,</l>
+                  <l>Smells not ſo well as Cloſe-ſtools of a <hi>King.</hi>
+                  </l>
+               </lg>
+               <pb n="4" facs="tcp:94038:7"/>
+               <lg>
+                  <l>But thou, O <hi>Baſil,</hi> thy high worth diſdains</l>
+                  <l>The ſcurrilous humor of ſuch frantick brains,</l>
+                  <l>And hat'ſt thoſe vermine that would undermine</l>
+                  <l>Root, Body, Branches of the Sacred Vine,</l>
+                  <l>And <hi>Hocus Pocus</hi> long breath'd Sycophants,</l>
+                  <l>Who in ſuch cunning manner ſet the Plants</l>
+                  <l>Of <hi>Treaſon</hi> and <hi>Sedition,</hi> that they grow</l>
+                  <l>Faſt'ning their Roots as deep as Hell below,</l>
+                  <l>And their huge Leaves o'r-ſpread the poys'ned Soyl</l>
+                  <l>Of this moſt famous and once <hi>Sovereign Iſle.</hi>
+                  </l>
+                  <l>(Who cloak their crimes in Hoods of holineſs,</l>
+                  <l>And take Gods name to cover wickedneſs,</l>
+                  <l>Are double Villains, and the Hypocrite</l>
+                  <l>Is moſt-moſt odious in Gods glorious ſight.</l>
+                  <l>Go on brave <hi>Baſil</hi> ſtand to the profeſſion</l>
+                  <l>Of true <hi>Religion</hi> (with a due deſcretion</l>
+                  <l>To make of loyal Spirits a good choice,</l>
+                  <l>And know true Shepherds from the <hi>Hyena's</hi> voice;</l>
+                  <l>And follow the ſame wiſdom which thou haſt</l>
+                  <l>With Principles for ſeveral years embrac'd,</l>
+                  <l>Which tell thee that the Scepter ſway'd by any</l>
+                  <l>Plurality, hath ſymptoms like to many,</l>
+                  <l>And neither of them can be laſting, why?</l>
+                  <l>For want of union in their birth they dy.</l>
+                  <l>
+                     <hi>
+                        <g ref="char:V">Ʋ</g>nion</hi> is of <hi>Government</hi> the life,</l>
+                  <l>And will preſerve it in deſpight of ſtrife.</l>
+                  <l>What is <hi>Democracy</hi> but a toſs'd ſhip,</l>
+                  <l>Void both of Pole, and Pilot in the deep,</l>
+               </lg>
+               <pb n="5" facs="tcp:94038:7"/>
+               <lg>
+                  <l>
+                     <hi>A Senate</hi> fram'd of many a head-ſtrong Clown,</l>
+                  <l>Where number weighs the moſt judicious down;</l>
+                  <l>Where they whoſe eyes are in their head propoſe,</l>
+                  <l>And they who are moſt blinde of all diſpoſe,</l>
+                  <l>A ſtinking <hi>Olio,</hi> poyſoning the air,</l>
+                  <l>Infecting moſt that unto it repair,</l>
+                  <l>A gally maufry of brains ſo poſſeſt</l>
+                  <l>As ſtill the vileſt is accounted beſt,</l>
+                  <l>Where who's moſt bold, buſie, and void of wit,</l>
+                  <l>And ſpeaks leaſt ſence, is thought the nail to hit.</l>
+                  <l>It is a <hi>Fair</hi> expoſing things to ſale,</l>
+                  <l>And peſt'red with ſtrange beaſt ſway'd by the tayl,</l>
+                  <l>It is a Forge upon whoſe Anvils wrought</l>
+                  <l>Ugly confuſion, and the fire is brought</l>
+                  <l>From Hell which heateth the affection</l>
+                  <l>Of thoſe who in it cauſe diſtraction;</l>
+                  <l>The ſparkles of this fire about do flye,</l>
+                  <l>Viſible, and known to every eye.</l>
+                  <l>And how I pray can plots, though deep they be,</l>
+                  <l>Be ſafe, if all in common muſt them ſee?</l>
+                  <l>Sith known deſigns do ſeldom take effect,</l>
+                  <l>Are deſperate, and dangerous to act:</l>
+                  <l>And hence it is that wiſe men ſtill exclude</l>
+                  <l>The turbulent, baſe, moody multitude</l>
+                  <l>From holding the choice Rains of Government,</l>
+                  <l>Which in ſuch hands cannot be permanent,</l>
+                  <l>Nor with leſs danger can an <hi>Empery</hi>
+                  </l>
+                  <l>Be ſwayed by an <hi>Ariſtocracy,</hi>
+                  </l>
+                  <pb n="6" facs="tcp:94038:8"/>
+                  <l>It being a Field wherein the Devil doth ſow</l>
+                  <l>Strife, Leagues and Factions, and they in it grow:</l>
+                  <l>It being a Stage where thoſe of higheſt blood</l>
+                  <l>Act their own ends, yet pretend common good:</l>
+                  <l>Where uſually, like Bulls untamed, they</l>
+                  <l>Each hale, and ſtrangely pull a different way,</l>
+                  <l>Every one hurried with paſſions high,</l>
+                  <l>To what their luſts tranſport their minds awry;</l>
+                  <l>At length the ſtrongeſt down the weakeſt bears,</l>
+                  <l>To himſelf uſurps the Crown, and ſo it wears:</l>
+                  <l>Thus Ariſtocracy doth ever tend</l>
+                  <l>To Monarchy at laſt, and in it end.</l>
+               </lg>
+               <lg>
+                  <l>Monarchy in Heaven hath ever been</l>
+                  <l>In high'ſt eſteem, from whence it did begin.</l>
+                  <l>The Almighty Monarch he alone did frame</l>
+                  <l>The World, and all below and 'bove the ſame:</l>
+                  <l>The World needs but one God, Heav'n but one Sun,</l>
+                  <l>And our Great <hi>Brittain</hi> KING but only One:</l>
+                  <l>Such as is He, whoſe Wiſdom and Fore-ſight</l>
+                  <l>Makes Him the Almighties Picture, even right.</l>
+               </lg>
+               <lg>
+                  <l>'Tis <hi>Monarchy</hi> which is a Station ſure,</l>
+                  <l>Built skilfully, and ever will endure;</l>
+                  <l>Although we ſee it ſometimes out of place,</l>
+                  <l>Again as 'twas it comes to be at laſt:</l>
+                  <l>For Rebel ſubjects of themſelves will quail,</l>
+                  <l>And Lawful KINGS at firſt or laſt prevail.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Monarchy</hi> is a quiet Houſe, where's one</l>
+                  <l>Obey'd, and ſerv'd ſans contradiction,</l>
+                  <pb n="7" facs="tcp:94038:8"/>
+                  <l>A Garden where Seditions takes no tooting,</l>
+                  <l>And all confounding Anarchy no footing:</l>
+                  <l>A well rig'd Ship, where dangers true appearing,</l>
+                  <l>All do give way unto their Maſters ſteering.</l>
+               </lg>
+               <lg>
+                  <l>A Monarch's Edicts are like Laws Divine</l>
+                  <l>To be imprinted in a Loyal mind</l>
+                  <l>With Reverence; and they ought act them too,</l>
+                  <l>Sith GOD himſelf commands them ſo to do;</l>
+                  <l>His will is Subjects jointly ſhould proceed,</l>
+                  <l>To execute their SOVERAIGN's will with ſpeed,</l>
+                  <l>And not againſt their GOD, KING reaſoning ſtand</l>
+                  <l>Whil'ſt in the interim victory ſcapes his hand:</l>
+                  <l>His will is Governments on Earth ſhould be</l>
+                  <l>Like His in Heaven, a perfect Monarchie.</l>
+               </lg>
+               <lg>
+                  <l>And therefore curſed thoſe arch Traitors be</l>
+                  <l>Who do rebel againſt the Deity:</l>
+                  <l>Atheiſts in Grain, faining Superſtition</l>
+                  <l>To cloak their cruelty and daimn'd ambition,</l>
+                  <l>God and Mans Enemies, incarnate Devils,</l>
+                  <l>Fell-murdering Vipers, Chaos of all evils,</l>
+                  <l>Unnatural <hi>Neroes, Eroſtrates</hi> cruel,</l>
+                  <l>Which of KING, Peers &amp; people would make fuel,</l>
+                  <l>Confound all Order and Religion quaſh,</l>
+                  <l>Of honeſty and falſhood make a haſh.</l>
+               </lg>
+               <lg>
+                  <l>But <hi>Baſil</hi> be thou bleſs'd, and go on ſtill,</l>
+                  <l>Thy ſelf conforming to thy Soveraigns will,</l>
+                  <l>Fear God, thy <hi>King Charles</hi> honor, give no eare</l>
+                  <l>To fawning hypocrites, their wayes forbear.</l>
+                  <pb n="8" facs="tcp:94038:9"/>
+                  <l>Meddle not with them, for to change they bend</l>
+                  <l>Their reſtleſs mindes, and will in ruine end,</l>
+                  <l>And that ere long, yea, poſſibly before,</l>
+                  <l>
+                     <hi>Sol</hi> ſhall his beaten track oft gallop o'r,</l>
+                  <l>Yea, ſuddenly deſtruction ſhall come</l>
+                  <l>Upon them, heark, methinks I hear the Drum</l>
+                  <l>Beating a Call unto their welcome change,</l>
+                  <l>And O, how many thouſands ſee I range,</l>
+                  <l>In battle order 'gainſt thoſe <hi>Rumpers</hi> which</l>
+                  <l>Have pin'd the <hi>Body</hi> to uphold the <hi>Britch.</hi>
+                  </l>
+                  <l>Methinks I ſee, or elſe my ſight's deceived,</l>
+                  <l>And I of underſtanding am bereaved;</l>
+                  <l>I ſay, methinks I ſee the Stars ev'n all</l>
+                  <l>Joyntly prepare themſelves againſt the fall</l>
+                  <l>Of that ſame many headed Monſtrous thing,</l>
+                  <l>That hath ſo long withſtood their <hi>God</hi> and <hi>King.</hi>
+                  </l>
+                  <l>Methinks I <hi>Praiſe God Bare-bone</hi> ſee lament</l>
+                  <l>That ere unto the headleſs <hi>Parliament,</hi>
+                  </l>
+                  <l>
+                     <hi>A Phanatick Petition</hi> he prefer'd</l>
+                  <l>'Gainſt <hi>King</hi> and <hi>Peers,</hi> or ere againſt them ſtir'd.</l>
+                  <l>And you <hi>John Lambert, Disbrowe,</hi> and others,</l>
+                  <l>That in iniquity were all ſworn Brothers,</l>
+                  <l>Are you not now with your own coyn paid off,</l>
+                  <l>And to your Foes, and Quondam-friends a ſcoff?</l>
+                  <l>And thou, O <hi>Oliver,</hi> who ſoard'ſt ſo high,</l>
+                  <l>What haſt behinde thee left ſave infamy,</l>
+                  <l>And a foul ſtench, which by relations</l>
+                  <l>Was ſmelled over all the <hi>Tripple Nations?</hi>
+                  </l>
+                  <pb n="9" facs="tcp:94038:9"/>
+                  <l>Which O together with thy Hypocriſie,</l>
+                  <l>Will ere be mention'd with Indignity:</l>
+                  <l>And whatſoever thou didſt once ſuppoſe,</l>
+                  <l>More infamous will make thee then thy <hi>Noſe.</hi>
+                  </l>
+                  <l>But of this ſubject now no more I'll ſing</l>
+                  <l>Or ſay, then only this, <hi>God ſave the KING.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="2" type="part">
+               <pb n="10" facs="tcp:94038:10"/>
+               <head>LIB. II.</head>
+               <lg>
+                  <l>
+                     <hi>BAſil,</hi> I now again draw near to thee,</l>
+                  <l>To whom I have a perfect ſympathie,</l>
+                  <l>And love on thee to look, for in thy face</l>
+                  <l>True Loyaltie I ſee conjoyn'd with Grace:</l>
+                  <l>And as Thou Loyally moſt gratious art,</l>
+                  <l>So other graces in thee act their part,</l>
+                  <l>Every one ſo, as if they ſtrived which</l>
+                  <l>(To their own glory) ſhould thee moſt enrich,</l>
+                  <l>What by retail to Saints themſelves is given,</l>
+                  <l>On thee in groſs is poured down from Heav'n.</l>
+                  <l>And Nature which to Millions hath ſeem'd</l>
+                  <l>A curs'd ſtep-mother, as ſhe's daily deem'd,</l>
+                  <l>By making them ſo ugly to the view</l>
+                  <l>O how moſt beautiful hath ſhe made you!</l>
+                  <l>Witneſs thy Roſial Cheeks, thy ſpeaking Eyes,</l>
+                  <l>Which did ſo fair and wiſe a ſoul ſurprize,</l>
+                  <l>Even thine, O Peerleſs Madam <hi>Dorothy!</hi>
+                  </l>
+                  <l>The very Manſion of Divinity.</l>
+                  <l>Speak, <hi>Madam,</hi> could you any armor find</l>
+                  <l>Might be of proof, ſuch as could fence your mind:</l>
+                  <l>Or could you any ſtratagem deviſe</l>
+                  <l>Againſt th' Artillary of his ſparkling eyes?</l>
+                  <l>Ah vain it is for fleſh and blood t'oppoſe</l>
+                  <l>The powerful beams which come from ſuch as thoſe</l>
+                  <pb n="11" facs="tcp:94038:10"/>
+                  <l>But how unfit am I to blazon forth</l>
+                  <l>So great, ſo rare, ſo incomparable worth,</l>
+                  <l>As is in Thee the glorious heir of <hi>Broom,</hi>
+                  </l>
+                  <l>Whoſe parallel was never ſeen in <hi>Rome.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Some trumpet out aloud the fame of <hi>Fabius,</hi>
+                  </l>
+                  <l>Of <hi>Mutius, Curius</hi> and <hi>Camillus,</hi>
+                  </l>
+                  <l>And of the <hi>Scipioes</hi> and the <hi>Caeſars,</hi> who</l>
+                  <l>Come ſhort of thee, for thou doſt them out-go</l>
+                  <l>As far in <hi>Virtue</hi> as the truth precedes</l>
+                  <l>Falſhood, or real actions feigned deeds;</l>
+                  <l>They were extoll'd beyond their merits due,</l>
+                  <l>What feigned was in them, in you is true;</l>
+                  <l>And how, ſweet <hi>Baſil,</hi> couldſt thou well be other,</l>
+                  <l>Deſcending from ſo fair and wiſe a <hi>Mother?</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>True Vertues are the Objects of thy will,</l>
+                  <l>Vain fame of theirs, with it the world to fill.</l>
+                  <l>And whereas the ſame <hi>Vertues,</hi> which in ſhew,</l>
+                  <l>Theſe had, who moſt had, had of them but few;</l>
+                  <l>Thou <hi>Baſil</hi> in a number art known well,</l>
+                  <l>Not to be equalized to excel:</l>
+                  <l>So that I ſooner could tell every tree</l>
+                  <l>Which on the earth at this time growing be,</l>
+                  <l>And ſooner reckon all the waves to one</l>
+                  <l>Wherewith fierce <hi>Neptune</hi> (ſince <hi>Jove</hi> ſate in's Throne)</l>
+                  <l>Have beat upon the Brittiſh coaſt, or know</l>
+                  <l>How many plants in the whole world do grow,</l>
+                  <l>Then I an even number can invent,</l>
+                  <l>Which to thy <hi>Vertues</hi> are equivalent.</l>
+               </lg>
+               <lg>
+                  <pb n="12" facs="tcp:94038:11"/>
+                  <l>Doubtleſs it doth within the compaſs come,</l>
+                  <l>Of mine own brain, to reckon up the ſum</l>
+                  <l>Of all the Millions of Miles, which each</l>
+                  <l>Point ſign'd in Heav'n in the <hi>Aequators</hi> reach,</l>
+                  <l>With full carear turns round within an hour</l>
+                  <l>Its ſpace, as likewiſe in full twenty four:</l>
+                  <l>And I confeſs, I could with mickle eaſe</l>
+                  <l>Make demonſtration, if that I pleaſe,</l>
+                  <l>Of ſuch a number juſt of inches, nay,</l>
+                  <l>Of Barley corns, which certainly reach may</l>
+                  <l>(Set one by one) in length unto the Moon,</l>
+                  <l>Or to the body of the Star of Noon;</l>
+                  <l>Nay, of a greater number of Sands ſmall,</l>
+                  <l>Which the concavity would fill up all,</l>
+                  <l>From the Earth's centre to the very ſphere</l>
+                  <l>Of the fix'd Stars, which thence ſuch diſtance bear.</l>
+                  <l>But <hi>Baſil</hi> I dare never undertake</l>
+                  <l>Of all thy vertues, a juſt ſum to make.</l>
+                  <l>And ſuch they alſo be, that whoſoe'r</l>
+                  <l>In time to come ſhall hear of them, and ne'r</l>
+                  <l>Render due honor to them; let them be</l>
+                  <l>Proclaimed odious to poſterity,</l>
+                  <l>Becauſe they will refuſe to pay it you,</l>
+                  <l>To whom the utmoſt height of it is due:</l>
+                  <l>Yea, let all their actions, even their beſt,</l>
+                  <l>Be accounted ſuch as Heav'n doth deteſt;</l>
+                  <l>And let their leprous names diſhonor'd dy,</l>
+                  <l>Or if ſurvive, ſurvive with Infamy.</l>
+               </lg>
+               <pb n="13" facs="tcp:94038:11"/>
+               <lg>
+                  <l>Come, <hi>Reader,</hi> now ſit down a while by me,</l>
+                  <l>And by thy leave I will ſet out to thee</l>
+                  <l>A Lady fair, pure, perfect and divine,</l>
+                  <l>Which did this noble Lovers heart enſhrine.</l>
+                  <l>Wonder not at it, ſith that ſuch ſhe is</l>
+                  <l>As in Her ſelf's a <hi>Magazine</hi> of <hi>Bliſs;</hi>
+                  </l>
+                  <l>
+                     <hi>Beautie</hi> and <hi>Bliſs</hi> in her together joyn,</l>
+                  <l>And do thy <hi>Happineſs,</hi> O <hi>Baſil</hi> ſign!</l>
+                  <l>This is ſweet <hi>Dorothy,</hi> who is deſign'd</l>
+                  <l>By <hi>Natures</hi> ſelf the glory of her kind;</l>
+                  <l>On whom when brighter then the Sun I gaze</l>
+                  <l>My ſenſes all do tread a Lovers maze.</l>
+               </lg>
+               <lg>
+                  <l>Some ſay ſuch was <hi>Hero, Hero</hi> the fair,</l>
+                  <l>That her <hi>Apollo</hi> courted for her hair,</l>
+                  <l>And off red for a dower his burning Throne,</l>
+                  <l>For her to ſit for men to gaze upon:</l>
+                  <l>But I ſay, What would have <hi>Apollo</hi> given</l>
+                  <l>For <hi>Dorothy,</hi> if not his ſhare in Heav'n?</l>
+               </lg>
+               <lg>
+                  <l>Some ſay for <hi>Hero</hi> lovely <hi>Cupid</hi> pin'd,</l>
+                  <l>And looking in her face was ſtrucken blind;</l>
+                  <l>Who holds his face t'ward thine, fair <hi>Dorothy,</hi>
+                  </l>
+                  <l>Though he were blind before, he then may ſee,</l>
+                  <l>(More probably) for thy bright heav'nly Eyes</l>
+                  <l>May make the Dumb to ſpeak, the Dead to riſe,</l>
+                  <l>Convert-old <hi>Sadduces,</hi> and teach them faith</l>
+                  <l>Here to believe what our own <hi>Scripture</hi> ſaith.</l>
+                  <l>Some ſay ſo faire was <hi>Hero, Venus</hi> Nun,</l>
+                  <l>As <hi>Nature</hi> wept thinking ſhe was undone,</l>
+                  <pb n="14" facs="tcp:94038:12"/>
+                  <l>Becauſe ſhe took more from her then ſhe left,</l>
+                  <l>And of ſuch wondrous <hi>Beauty</hi> her bereft.</l>
+                  <l>Believe it they that will, for <hi>Henry,</hi> I</l>
+                  <l>Say an Hyperbole it is, or lye:</l>
+                  <l>But I am ſure ſo fair is <hi>Dorothie,</hi>
+                  </l>
+                  <l>And ſo eminent in ſuperiority,</l>
+                  <l>That I (methinks) ſee <hi>Nature</hi> ſtand at gaze,</l>
+                  <l>Proud that ſhe ſhould ſo rare a Fabrick raiſe,</l>
+                  <l>Yet doubtful to acknowledg it, leaſt ſhe</l>
+                  <l>Might ſeem t'encroach upon <hi>Divinity.</hi>
+                  </l>
+                  <l>And <hi>Nature</hi> may triumph, having brought forth</l>
+                  <l>A Creature of ſuch <hi>Beautie</hi> and ſuch worth,</l>
+                  <l>As <hi>Natures</hi> God delighteth in to ſee,</l>
+                  <l>And Angels muſe to hear the Melodie</l>
+                  <l>Of her ſweet voice, O rare and Heavenly voice!</l>
+                  <l>The Eſſence of their tunes when they rejoyce.</l>
+               </lg>
+               <lg>
+                  <l>O who is he can worthily declare</l>
+                  <l>Each part of Her, and not come ſhort by far?</l>
+                  <l>Sith what we know ſo lovely are in ſight,</l>
+                  <l>As no ſoul can expreſs them to the height:</l>
+                  <l>Her fore-head, O how fair, how heavenly</l>
+                  <l>It looks's! the white Swan, Snow or Ivory</l>
+                  <l>Come as far ſhort as faireſt Flowers exceed</l>
+                  <l>In lovely <hi>Beauty</hi> the moſt ugly Weed:</l>
+                  <l>Her Eye-brows th' Arches which ſupport the ſame,</l>
+                  <l>May well be thought t'uphold a heavenly frame,</l>
+                  <l>And thoſe pure Eyes which underneath do ſhine,</l>
+                  <l>All who them ſee, muſt needs ſay are divine:</l>
+                  <pb n="15" facs="tcp:94038:12"/>
+                  <l>And if they were expoſed to each eye,</l>
+                  <l>Who is't that would not learn <hi>Aſtronomie?</hi>
+                  </l>
+                  <l>And marke their motions more then thoſe who light,</l>
+                  <l>Though higher ſet, leſs pleaſant are to ſight,</l>
+                  <l>Having ſuch virtue in them as to turn</l>
+                  <l>Stones into men, and make meer rocks to burn;</l>
+                  <l>And why not ſo? if that their radiant light</l>
+                  <l>Will perfectly out-ſhine <hi>Sol</hi> at his hight,</l>
+                  <l>And add ſuch luſtre to the darkſome <hi>Moon,</hi>
+                  </l>
+                  <l>As may make mid-night ev'n as light as <hi>Noon.</hi>
+                  </l>
+                  <l>Her cheeks ſpread with a coulor of ſuch hew,</l>
+                  <l>So lovely as <hi>Aurora</hi> never knew,</l>
+                  <l>In which thoſe jars are all compoſed ſeen,</l>
+                  <l>Which 'twixt the white Roſe and the red have been.</l>
+                  <l>And why not ſo? ſith that 'tis known in heart</l>
+                  <l>And body too, ſhe's Royaliz'd in part;</l>
+                  <l>And ſure in ſome ſort 'tis a heav'nly thing</l>
+                  <l>To have relation to a glorious <hi>King.</hi>
+                  </l>
+                  <l>Sith <hi>Kings</hi> are <hi>Gods,</hi> who dare to it ſay no,</l>
+                  <l>When God hath ſign'd their warrants to be ſo.</l>
+               </lg>
+               <lg>
+                  <l>But O the <hi>Vertue</hi> in her lips that is</l>
+                  <l>Able to raviſh if diſpos'd to Kiſs!</l>
+                  <l>Divinely raviſh, to an extaſie</l>
+                  <l>With joyes and pleaſures, O how heav'nly!</l>
+                  <l>And why not ſo? ſith Rubies they ſurpaſs,</l>
+                  <l>And they abound with moſt refined Grace,</l>
+                  <l>From whence true Nectar is ſo poured forth,</l>
+                  <l>As <hi>Jove</hi> himſelf nere taſted of ſuch worth.</l>
+                  <pb n="16" facs="tcp:94038:13"/>
+                  <l>And oh the choice Pearls which her Lips do hide!</l>
+                  <l>(Choice things are rare, they ſeldom are eſpy'd,)</l>
+                  <l>And oh the fluent Tongue thoſe Pearls contain!</l>
+                  <l>Never yet known let looſe to ſpeech in vain,</l>
+                  <l>And oh how pow'rful 'tis when it hath force</l>
+                  <l>To quicken ſtones, and ſtop the Oceans courſe!</l>
+                  <l>And why not ſo? if that the Powers divine,</l>
+                  <l>Unto it hearken, and her will incline.</l>
+                  <l>And oh her breath more ſweet then any Roſe!</l>
+                  <l>'Tis a holy flame ſanctifies where it goes.</l>
+                  <l>Her Noſe, her Chin, and her well-hearing Ears,</l>
+                  <l>Such whiteneſs as her lovely forehead wears.</l>
+                  <l>Her Hands ſo pure, ſo innocent, nay ſuch</l>
+                  <l>They are, that <hi>Angels</hi> may bow down to touch!</l>
+                  <l>And why not ſo? if Heav'n it ſelf doth ſtoop</l>
+                  <l>To them, and joy to ſee them lifted up.</l>
+                  <l>But what is he that is not more then man,</l>
+                  <l>Can her ſublime perfections truly ſcan?</l>
+                  <l>Much leſs ſet forth, ſith certainly there's none</l>
+                  <l>Who breaths the air, can fully ſet out one:</l>
+                  <l>Who may then venture all of them to ſpeak?</l>
+                  <l>Unleſs he hazard all his brains to break.</l>
+                  <l>I muſt confeſs the task's to high for me,</l>
+                  <l>Be it the ſubject of <hi>Divinity.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>O happy <hi>Baſil,</hi> who may'ſt ſweetly know,</l>
+                  <l>Not onely what's above, but what's below!</l>
+                  <l>And ſure, the hidden equalize the known,</l>
+                  <l>Thou may'ſt enjoy her all, ſhe is thine own;</l>
+                  <pb n="17" facs="tcp:94038:13"/>
+                  <l>She is thine own, yea, perfectly ſhe's thine,</l>
+                  <l>And ne'r to alteration will incline,</l>
+                  <l>But certainly whilſt that ye both live, ſtill</l>
+                  <l>Will be the ſubject of her <hi>Baſils</hi> will:</l>
+                  <l>She is thine own, and with her is the ſum</l>
+                  <l>Of all the pleaſures of <hi>Elyzium,</hi>
+                  </l>
+                  <l>Enjoy them in a rapture, whilſt thou make</l>
+                  <l>
+                     <hi>Lucina</hi> ſmile, and Madam <hi>Tellus</hi> ſhake.</l>
+               </lg>
+               <lg>
+                  <l>Now all ye Gods go tune the Spheres, and ſend</l>
+                  <l>Down <hi>Ganymede</hi> from Heav'n t'attend</l>
+                  <l>This happy couple, duly waiting on</l>
+                  <l>The joyful triumphs of their Union;</l>
+                  <l>And thou <hi>Euterpe</hi> get thee gone to Hell,</l>
+                  <l>And fetch him thence, who once by <hi>Muſes</hi> ſpell,</l>
+                  <l>Reduc'd a Soul, maugre the power of thoſe</l>
+                  <l>Fell deſtinies which durſt him to oppoſe:</l>
+                  <l>Touch thou his Harp with the rare <hi>Phenix</hi> Quill,</l>
+                  <l>And bid him ſhew the utmoſt of his skill,</l>
+                  <l>Making ſuch muſick, that Beaſt, Trees, and Stone,</l>
+                  <l>May dance at their joys celebration:</l>
+                  <l>And thou great Queen of <hi>Jove,</hi> who do'ſt aſſiſt</l>
+                  <l>Nuptials, by making happy thoſe thou liſt.</l>
+                  <l>So ſhowre thy bleſſings on theſe, that they may</l>
+                  <l>Be but as one continued Nuptial day:</l>
+                  <l>May the ſtout Bridegroom oft like <hi>Hercules,</hi>
+                  </l>
+                  <l>Enter the Orchard of the <hi>Heſperides.</hi>
+                  </l>
+                  <l>But here I reſt, whilſt others ſport, for my</l>
+                  <l>Head's giddy, and my Pen may go awry.</l>
+               </lg>
+            </div>
+            <div n="3" type="part">
+               <pb n="18" facs="tcp:94038:14"/>
+               <head>LIB. III.</head>
+               <lg>
+                  <l>NEw-Light gives new directions, now my Verſe</l>
+                  <l>With <hi>Baſils</hi> bliſs, my wiſhes ſhall rehearſe:</l>
+                  <l>Proceed then <hi>Reader,</hi> for my Lines ſhall run</l>
+                  <l>Far higher now then they as yet have done,</l>
+                  <l>But do not thou with unbelief them ſtain,</l>
+                  <l>Sith they more truth then <hi>Sybils</hi> leaves contain.</l>
+               </lg>
+               <lg>
+                  <l>O bleſſed <hi>Baſil,</hi> thou enjoyeſt one</l>
+                  <l>Wh'exceeds the height of admiration!</l>
+                  <l>Who had ſhe liv'd when firſt the World began,</l>
+                  <l>Some God 'tis thought would not have ſuff'red man</l>
+                  <l>To have enjoyed to himſelf alone,</l>
+                  <l>But forcibly have took her for his own;</l>
+                  <l>Haſting with ſpeed, down from th' Imperial sky,</l>
+                  <l>To have poſſeſt ſo rare a Diety.</l>
+                  <l>Sure had ſhe liv'd before the Wars of <hi>Troy,</hi>
+                  </l>
+                  <l>
+                     <hi>Hellen</hi> whoſe Beauty caus'd ſo great annoy</l>
+                  <l>Unto that Cities everlaſting doom</l>
+                  <l>(For hence againſt it, <hi>Greece</hi> in arms did come.)</l>
+                  <l>I ſay, if <hi>Dorothy</hi> had lived then,</l>
+                  <l>We ne'r had heard of highly fam'd <hi>Hellen;</hi>
+                  </l>
+                  <l>For then the great <hi>Bard</hi> had left out her praiſe,</l>
+                  <l>And <hi>Dorothy</hi> had been in all his lays,</l>
+                  <l>The name of <hi>Dorothy</hi> had in each line</l>
+                  <l>Been written, ſo they all had keen divine.</l>
+                  <pb n="18" facs="tcp:94038:14"/>
+                  <l>And now <hi>Hellen</hi> I canno<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> well rehearſe,</l>
+                  <l>Nor wil't like <hi>Dorothy</hi> run in my verſe:</l>
+                  <l>Fair <hi>Dorothy,</hi> the gift of the moſt High,</l>
+                  <l>To Princely <hi>Baſil</hi> him t'accompany,</l>
+                  <l>A gift divine, ſuch as I muſt confeſs,</l>
+                  <l>Without a <hi>Dorothy</hi> none can expreſs:</l>
+                  <l>For who, O Lord, without a gift from Thee,</l>
+                  <l>Can well expreſs thine own of <hi>Dorothy?</hi>
+                  </l>
+                  <l>Informing whom thy hand ſo famous deem'd</l>
+                  <l>Almoſt it ſelf to have excelled ſeem'd:</l>
+                  <l>And therefore now no other help but thine,</l>
+                  <l>I ſhall requeſt thy great gift to define,</l>
+                  <l>And ſcorn aſſiſtance from the Muſes Hill,</l>
+                  <l>Where thou, O God, ſhalt pleaſe to guid my quill,</l>
+                  <l>And from it <hi>Dorothean Nectar</hi> make</l>
+                  <l>To flow; which do, O do, for thine own ſake,</l>
+                  <l>That <hi>Dorothy</hi> I here may ſo make known,</l>
+                  <l>As ſhe's thine Image, even thy very own.</l>
+                  <l>The beſt of Women that the World ere knew,</l>
+                  <l>Was but a Type of <hi>Dorothy</hi> to enſue,</l>
+                  <l>Which now in <hi>Dorothy,</hi> her <hi>Baſils</hi> dear,</l>
+                  <l>He findes fulfil'd, and others judge that ſee her</l>
+                  <l>Divinities, the object of her will,</l>
+                  <l>She loves what's good, and hateth what is ill;</l>
+                  <l>Her thoughts are noble, and her words divine,</l>
+                  <l>Her <hi>Graces</hi> more delicious then Wine,</l>
+                  <l>Every one of them being apter far</l>
+                  <l>To raviſh then entice, ſo rare they are!</l>
+                  <pb n="19" facs="tcp:94038:15"/>
+                  <l>Angelicals her geſture, and her gate</l>
+                  <l>Moſt lovely ſweet, humbly conjoyn'd with ſtate.</l>
+                  <l>Pure <hi>Vertue</hi> is her Hand-maid, and her dreſs</l>
+                  <l>The richeſt <hi>Jewels</hi> of all godlineſs.</l>
+                  <l>
+                     <hi>Rich Jewels!</hi> which are of ſo high a prize,</l>
+                  <l>As that their worth all <hi>India</hi> defies,</l>
+                  <l>And ſuch, as if in ballances 'twere laid</l>
+                  <l>With the whole <hi>Earth,</hi> by it 'twould be out weigh'd.</l>
+                  <l>
+                     <hi>Faith, Hope,</hi> and <hi>Charity,</hi> adorn her breſt,</l>
+                  <l>So as by them may judged be the reſt.</l>
+                  <l>
+                     <hi>Heaven</hi> be thou the Paper, whereupon</l>
+                  <l>They fairly may deſcribed be each one;</l>
+                  <l>Ye <hi>Angels</hi> ſet them down, immortal Fame</l>
+                  <l>Do thou lend Ink to Regiſter the ſame.</l>
+                  <l>Great God! this great gift at the inſtant when</l>
+                  <l>Thou gaveſt, like thy ſelf thou gaveſt then;</l>
+                  <l>None but a God, could ſuch a gift have given,</l>
+                  <l>And from whence could it come, if not from Hea<g ref="char:EOLhyphen"/>ven?</l>
+                  <l>Who can of <hi>Dorothy</hi> make any ſence,</l>
+                  <l>Unleſs he do derive her name from thence:</l>
+                  <l>And ſince ſhe is deſcended from above,</l>
+                  <l>She's ſurely worthy of a Prince's love.</l>
+                  <l>Is ſhe not <hi>Baſil?</hi> thou whoſe name doth ſpell</l>
+                  <l>No ſmall one, if it be obſerved well.</l>
+                  <l>
+                     <hi>Baſil</hi> and <hi>Dorothy</hi> both names ſo high,</l>
+                  <l>As in them all may read <hi>Divinity.</hi>
+                  </l>
+                  <l>What is a <hi>King</hi> and gift from God conjoyn'd,</l>
+                  <l>But <hi>Baſilean Dorothy</hi> intwin'd?</l>
+                  <pb n="21" facs="tcp:94038:15" rendition="simple:additions"/>
+                  <l>
+                     <hi>Baſil</hi> and <hi>Dorothy</hi> make up the ſum</l>
+                  <l>Of the High and Mighty looked for to come;</l>
+                  <l>The great conjunction of a <hi>King</hi> and <hi>Queen,</hi>
+                  </l>
+                  <l>Are very plainly in them to be ſeen.</l>
+               </lg>
+               <lg>
+                  <l>O who is he, whom the great God of Heaven,</l>
+                  <l>Hath not of wit and ſences quite bereaven,</l>
+                  <l>Can poſſibly ſo ſtupiſied be,</l>
+                  <l>As not in theſe tranſcendency to ſee!</l>
+                  <l>
+                     <hi>Tranſcendency</hi> of ſuch an altitude</l>
+                  <l>As doth in it contain <hi>Beatitude.</hi>
+                  </l>
+                  <l>O bleſſed Couple, whoſe conjunction may</l>
+                  <l>Increaſe the world, with more ſuch as are they,</l>
+                  <l>And multiply their Sacred Names ſo much,</l>
+                  <l>As that the Nations may be fill'd with ſuch,</l>
+                  <l>Such <hi>Baſils,</hi> and ſuch <hi>Dorothies,</hi> as they're</l>
+                  <l>In deed, as well as Name, Divine, and Fair.</l>
+                  <l>O ye propitious <hi>Planets</hi> kindly be</l>
+                  <l>
+                     <hi>Aſſiſtants</hi> at their bleſs'd Nativity,</l>
+                  <l>
+                     <hi>Sol, Jove,</hi> and <hi>Mercury,</hi> your ſelves then place,</l>
+                  <l>So as ye may make fortunate their race,</l>
+                  <l>Yea, all the Stars of Heav'n joyntly ſhine,</l>
+                  <l>So as their Seed may wholly be divine,</l>
+                  <l>And all ye <hi>Powers</hi> above at once conſpire,</l>
+                  <l>To th'utmoſt to fulfil what they deſire.</l>
+                  <l>O let their Names beyond the <hi>Indies</hi> flie,</l>
+                  <l>Highly renown'd unto <hi>Eternity!</hi>
+                  </l>
+                  <l>And, O let all true happineſs extend</l>
+                  <l>To them, and on them evermore attend!</l>
+                  <pb n="22" facs="tcp:94038:16" rendition="simple:additions"/>
+                  <l>Let all things lawful be at their command,</l>
+                  <l>And let their day exceed the <hi>Oceans</hi> ſand;</l>
+                  <l>And when their Souls their Bodies ſhall forſake,</l>
+                  <l>Unto thy ſelf, them <hi>O Almighty</hi> take!</l>
+                  <l>And at the great and general day of Doom,</l>
+                  <l>When thy dear <hi>Son</hi> ſhall unto Judgment come.</l>
+                  <l>Do thou, O do their Souls and Bodies crown,</l>
+                  <l>With Everlaſting Honor and Renown;</l>
+                  <l>So that they e'r may in thy <hi>Kingdom</hi> ſing,</l>
+                  <l>
+                     <hi>Glory and Praiſe to thee their Lord and King.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Reader</hi> farewel, farewel all <hi>Poetry,</hi>
+                  </l>
+                  <l>Farewel ſweet <hi>Baſil,</hi> and fair <hi>Dorothy,</hi>
+                  </l>
+                  <l>And O thrice welcome dear <hi>Eternity.</hi>
+                  </l>
+               </lg>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:94038:16"/>
+         </div>
+      </body>
+   </text>
+</TEI>
